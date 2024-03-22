@@ -9,7 +9,7 @@ export default function Header() {
         <Link to="/">
           <h1 className="font-bold text-sm sm:text-xl flex flex-wrap">
             <span className="text-lime-600">Rent</span>
-            <span className="text-lime-800">Ease</span>
+            <span className="text-lime-800">Easy</span>
           </h1>
         </Link>
 
