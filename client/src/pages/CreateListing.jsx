@@ -115,9 +115,15 @@ export default function CreateListing() {
               The first image will be the cover (max 6)
             </span>
           </p>
-          <div className="p-3 border border-gray-300 rounded-lg w-full">
-            <input type="file" id="images" accept="image/*" multiple />
-            <button className="p-3 text-green-700 border-green-700 rounded uppercase hover:shadow-lg disabled:opacity-80">
+          <div className="flex gap-4">
+            <input
+              className="p-3 border border-gray-300 rounded w-full"
+              type="file"
+              id="images"
+              accept="image/*"
+              multiple
+            />
+            <button className="p-3 border text-green-700 border-green-700 rounded uppercase hover:shadow-lg disabled:opacity-80">
               Upload
             </button>
           </div>
