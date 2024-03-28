@@ -231,7 +231,7 @@ export default function Profile() {
           disabled={loading}
           className="bg-lime-600 text-white rounded-lg p-3 uppercase hover:opacity-95 disabled:opacity-80"
         >
-          {loading ? "Loading..." : "Update existing ad"}
+          {loading ? "Loading..." : "Update profile"}
         </button>
 
         <Link
