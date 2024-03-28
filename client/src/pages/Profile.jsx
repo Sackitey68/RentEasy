@@ -171,7 +171,7 @@ export default function Profile() {
   };
 
   return (
-    <div className="p-3 max-w-lg mx-auto">
+    <div className="p-3 max-w-lg mx-auto shadow-lg mt-5 rounded-lg">
       <h1 className="text-3xl font-semibold text-center my-7">Profile</h1>
 
       <form onSubmit={handleSubmit} className="flex flex-col gap-4">
@@ -194,7 +194,7 @@ export default function Profile() {
               Image upload error (image must be less than 2 mb)
             </span>
           ) : filePerc > 0 && filePerc < 100 ? (
-            <span className="text-slate-700">
+            <span className="text-lime-700">
               {`Uploading ${filePerc}% Completed`}
             </span>
           ) : filePerc === 100 ? (
