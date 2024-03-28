@@ -151,6 +151,12 @@ export default function Home() {
           </div>
         )}
       </div>
+      <footer class="bg-lime-100 text-gray-900 py-4 shadow-lg">
+    <div class="container mx-auto text-center ">
+        <p class="text-sm">&copy; 2024 <span className="text-lime-600 text-lg">Rent</span>
+            <span className="text-lime-800 text-lg">Easy</span>. All rights reserved.</p>
+    </div>
+</footer>
     </div>
   );
 }
