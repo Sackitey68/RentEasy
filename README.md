@@ -1,4 +1,4 @@
-# <ins>RentEasy</ins> 
+# RentEasy
 *MERN Stack Real estate website*
 
-![Portfolio Project](preview.png)
+![Portfolio Project](/client/src/assets/preview.png)
